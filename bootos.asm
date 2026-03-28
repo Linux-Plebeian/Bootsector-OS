@@ -219,7 +219,7 @@ compare_str:
 
 
 
-char_buffer: times 10 db 67
+char_buffer: times 256 db 0
 hlt_str:    db 'hlt',0
 help_str:   db 'help',0
 inc_str:    db 'inc',0
